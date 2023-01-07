@@ -109,44 +109,46 @@
     }
 /* icons style */
 /* special section */
-/* donate section */
-.donate-section{
+.skill-section{
     text-align: center;
 
 }
-.donate-title{
-    padding-top: 100px;
+.skill-title{
+    padding-top: 30px;
     font-size: 40px;
 }
-.donate-pera{
+.skill-pera{
     padding-top: 30px;
     color: #474747;
     font-size: 20px;
     margin-bottom: 100px;
 }
-.donation-plan{
+.card-section{
     display: flex;
     gap: 24px;
     justify-content: center;
 }
-.donate-card{
-    height: 283px;
+.card-item{
     width: 270px;
-    background: linear-gradient(to right, rgba(42, 90, 142, 1.0), rgba(194, 227, 249, 0.1));
-    border-radius: 5px;
-
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid gray;
 }
-.donate-png{
-    padding-top: 15px;
-    padding-left: 15px;
+.card-item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
 }
-.plan-title{
+.card-title{
     padding-left: 15px;
     padding-top: 10px;
 }
-.plan-para{
-    padding-left: 15px;
-    padding-top: 50px;
+.card-para{
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
 }
 /* special section */
 /* watch section style */
