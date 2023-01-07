@@ -1,0 +1,210 @@
+/* universal and common styles start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.primary-btn{
+    font-weight: 600;
+    font-size: 18px;
+    color:#005FAC;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+    cursor: pointer;
+    }
+
+/* universal and common styles end */
+/* first banner style start */
+.first-banner{
+    background-image: url(../images/banner/banner3.png);
+    height: 808px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    padding: 130px 210px;
+    margin-bottom: 130px;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+
+}
+.banner-pera{
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    line-height: 26px;
+}
+/* first banner style end*/
+/* middle-section-start */
+.middle{
+    display: flex;
+    align-items: center;
+    margin: 114px 163px;
+    gap: 87px;
+}
+.failure{
+    margin-top:370px ;
+}
+.middle-section-tittle{
+    font-weight:Bold;
+    Font-size: 30px;
+    margin-bottom: 24px;
+}
+.middle-section-pera{
+    color:#444343;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.failure-points{
+    margin-bottom: 214px;
+    margin-left: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    color:#403f3f;
+   
+}
+.failure-points > p{
+    display: inline;
+}
+/* middle-section-end */
+/* icons style */
+    .third-section{
+        margin-bottom: 135px;
+    }
+    .icon-title{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 56px;
+
+    }
+    .all-icons{
+        display: flex;
+        justify-content: center;
+        gap: 86px;
+    }
+    .icon-png{
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    .plans-title{
+        margin-bottom: 10px;
+        color: #151414;
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+    .plan-pera{
+        color: #737272;
+        font-size: 25px;
+        font-weight: 500;
+    }
+/* icons style */
+/* special section */
+/* donate section */
+.donate-section{
+    text-align: center;
+
+}
+.donate-title{
+    padding-top: 100px;
+    font-size: 40px;
+}
+.donate-pera{
+    padding-top: 30px;
+    color: #474747;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.donation-plan{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.donate-card{
+    height: 283px;
+    width: 270px;
+    background: linear-gradient(to right, rgba(42, 90, 142, 1.0), rgba(194, 227, 249, 0.1));
+    border-radius: 5px;
+
+}
+.donate-png{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.plan-title{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.plan-para{
+    padding-left: 15px;
+    padding-top: 50px;
+}
+/* special section */
+/* watch section style */
+    
+    .watch-section{
+        padding:59px 426px 59px 64px;
+        background-image:  linear-gradient(to right, rgba(42, 90, 142, 1.0), rgba(194, 227, 249, 0.1)), url(../images/watch.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-Radius:8px;
+        margin: 130px 230px;
+        height: 300px;
+        margin-bottom: 130px;
+    }
+    .watch-section-title{
+        font-size: 35px;
+        font-weight: 700px;
+        margin-bottom: 24px;
+        color: #FFFFFF;
+
+    }
+    
+/* watch section style */
+/* footer section start */
+footer{
+    display: flex;
+    gap: 300px;
+    padding: 130px 230px;
+    background-color: #151414;
+}
+.footer-title{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 700px;
+}
+.footer-pera{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.email{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.phone{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.right-footer-title{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    font-size: 20px;
+    
+}
+.email-input{
+    padding: 17px 36px;
+    border: none;
+    border-radius: 5px;
+}
+/* footer section end */
